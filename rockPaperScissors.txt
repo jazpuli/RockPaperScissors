@@ -1,0 +1,54 @@
+Goal: have a workable rock paper scissors game that can recieve string input and respond with a randomly generated computer play along with the score. The game should be able to differentiate between a correct string response and gibberish and quitting. Also should keep count of current round.
+
+input: valid input is users choice of "rock" "paper" "scissors" or "q" for quit
+
+output: output for valid input would be a regurgitation of player's choice
+	the computer's randomly generate choice
+	the outcome
+	the score
+	start of next game with increased round count
+	
+	if "q" is input, then display outro and exit program
+
+	output for invalid input should display error message and exit program
+
+//intro setup
+
+	//set up starting variables round, player input, scores
+
+	//set up while loop for wanted input aka filter out gibberish
+
+                //output player choice
+		//create random number generator and computer choice
+		//output computer choice
+
+		//tie scenario
+			//output draw and don't change score
+			//output score
+		//rock loses to paper scenario
+                        //output lose and increase denominator of score
+			//output score
+                
+		//rock wins to scissors scenario
+                        //output win and increase numerator and denominator of score
+			//output score
+
+		//paper wins to rock scenario
+                        //output win and increase numerator and denominator of score
+			//output score
+
+		//paper loses to scissors scenario
+                        //output lose and increase denominator of score
+			//output score
+                
+		//scissors wins to paper scenario
+                        //output win and increase numerator and denominator of score
+			//output score
+                        
+		//scissors loses to rock scenario
+			//output lose and increase denominator of score
+			//output score
+	//update round
+	//differentiate between gibberish and exiting
+//end
+
